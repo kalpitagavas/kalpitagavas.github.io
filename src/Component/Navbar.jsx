@@ -100,8 +100,6 @@ const NavBar = () => {
                   </a>
               </div>
 
-          
-              
     </div>
   );
 };
