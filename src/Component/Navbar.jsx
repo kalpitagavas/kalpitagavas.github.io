@@ -94,8 +94,8 @@ const NavBar = () => {
                   }}
                   smooth
                   target="_blank" rel="noreferrer"
-                  className="group text-white w-fit px-6 py-2 my-2 text-sm font-bold overflow-hidden flex items-center rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer md:py-3 gap-3"
-                >
+                  className="group text-white w-fit px-6 py-2 my-2 text-sm font-bold overflow-hidden flex items-center rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer md:py-3 gap-3">
+
                   <button style={{display:"flex"}} size={30}>Resume <ImDownload ></ImDownload></button>
                   </a>
               </div>
