@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,100;1,200&family=Raleway:wght@100;300&family=Rowdies&family=Source+Sans+Pro:wght@300;400;600&family=Tourney:ital,wght@0,100;1,100&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --Sapphire:#0F52BA;
+  --BabyBlue:#0fa3a3;
+  --black:#242D49;
+  --gray:#1e4bd2;
+  --blueCard:#1956ab;
+  --purple:rgb(238 210 255);
+  --boxShadow:0px 19px 60px rgb(0 0 0 / 8%);
+  --CadetBlue:#5F9EA0;
+  --smboxShdow:-79px 51px 60px rgba(0,0,0,0.08);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  padding:0.5rem 3.5rem;
+  overflow: hidden;
+   color:var(--black);
+ background-color:rgb(6, 91, 144)
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#resume-button-1{
+  border-radius: 34px;
+  border:none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:#e2e8f3;
+  font-size: 16px;
+  padding:  11px 26px 11px 26px;
+  cursor: pointer;
+  box-shadow: 0px 20px 24px 3px rgba(4, 31, 47, 0.42);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#resume-button-1,#resume-button-2:hover{
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 20px;
+  border:2px solid var(--Sapphire)
 }

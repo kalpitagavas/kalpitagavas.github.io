@@ -1,0 +1,16 @@
+.hexagon { 
+    display: inline-block;
+    position: relative;
+    font-size:20px;
+    text-align: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    transition: all .5s ease;
+}
+  
+.hexagon, 
+.hexagon:before, 
+.hexagon:after {
+  background:#93e6e5;
+  color:rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(247, 4, 4, 0.8);   
+}
