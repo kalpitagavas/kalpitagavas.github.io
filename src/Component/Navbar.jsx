@@ -99,6 +99,8 @@ const NavBar = () => {
                   <button style={{display:"flex"}} size={30}>Resume <ImDownload ></ImDownload></button>
                   </a>
               </div>
+
+          
               
     </div>
   );
