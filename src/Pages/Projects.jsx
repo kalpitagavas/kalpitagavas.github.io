@@ -42,8 +42,10 @@ const Projects = () => {
           </p>
         </div>
       </div>
+
+
       <div className="w-10/14 dark:text-white grid grid-rows-2 grid-flow-col gap-4 " class="project-card">
-        {/* TodoApp  */}
+      {/* TodoApp project */}
         <div className="py-5 shadow-md shadow-teal-200 mt-0 md:mt-10">
           <div data-aos="fade-up">
             <a
