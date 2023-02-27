@@ -12,15 +12,16 @@ const Github = () => {
           GitHub
    </p>
    </div>
-   <div className="flex justify-center mt-10 flex-col shadow-md shadow-gray-100 p-5">
+   <div className="flex justify-center mt-10 flex-col shadow-md  shadow-blue-100 p-5 rounded-full">
     <div className="flex justify-center">
         <p className="text-3xl font-semi-bold border-b-2 border-blue-500 p-2 inline text-white" data-aos="fade-right">
             GitHub Calendar
           </p>
           </div>  
-  <div className="flex justify-center mt-10" data-aos="fade-right">
+  <div className="flex justify-center mt-10 " data-aos="fade-right">
         <GitHubCalendar
               style={{
+                marginBottom:"40px",
                 border: "1px solid grey",
                 padding: "15px",
                 color: "#99F6E4",
@@ -29,8 +30,8 @@ const Github = () => {
               username="kalpitagavas"/>
   </div>
   </div> 
-  <div className="flex justify-center mt-5 flex-col shadow-md shadow-green-500 p-5">
-  <div className="flex justify-center mt-0">
+  <div className="flex justify-center mt-5 flex-col shadow-md  shadow-blue-100 p-5 rounded-full">
+  <div className="flex justify-center mt-0 p-2">
         <p className="text-3xl font-semi-bold border-b-2 border-blue-500 p-2 inline text-white" data-aos="fade-right" >
             My GitHub Statistics
           </p>
@@ -41,9 +42,9 @@ const Github = () => {
         src="https://github-readme-stats.vercel.app/api?username=kalpitagavas&show_icons=true&locale=en"  alt="kalpita-states" data-aos="fade-right" />
   </div>
   </div>
-  <div className="flex justify-center mt-5 flex-col shadow-md shadow-blue-500 p-5">
-  <div className="flex justify-center mt-0">
-        <p className="text-3xl font-semi-bold border-b-2 border-blue-500 p-2 inline text-white" data-aos="fade-right">
+  <div className="flex justify-center mt-5 flex-col shadow-md shadow-blue-100 p-5 rounded-full">
+  <div className="flex justify-center mt-0 p-2">
+        <p className="text-3xl font-semi-bold border-b-2 border-blue-500 p-2  inline text-white" data-aos="fade-right">
             GitHub Streak
           </p>
     </div>

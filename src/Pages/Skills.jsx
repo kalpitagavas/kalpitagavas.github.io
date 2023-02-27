@@ -8,6 +8,8 @@ import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import chakra from "../assets/chakra.png";
+import typescript from "../assets/typescript.png";
+
 
 //backend
 import node from "../assets/node.png";
@@ -16,6 +18,7 @@ import node from "../assets/node.png";
 //other tools
 import npm from "../assets/npm.png";
 import github from "../assets/github.png";
+import photoshop from "../assets/photoshop.webp";
 
 
 import AOS from "aos";
@@ -61,19 +64,26 @@ const Skills = () => {
       style: "shadow-sky-700",
     },
     {
-      id: 6,
+      id: 7,
       src: chakra,
       title: "Chakra UI",
       style: "shadow-cyan-700",
     },
-
+    {
+      id: 8,
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-blue-800",
+    },
   
     {
-      id: 10,
+      id: 9,
       src: node,
       title: "Node JS",
       style: "shadow-green-900",
     },
+    
+    
     
   ];
 
@@ -90,6 +100,12 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-700",
     },
+    {
+      id: 3,
+      src: photoshop,
+      title: "Photoshop",
+      style: "shadow-blue-900",
+    },
     
   ];
 
@@ -100,7 +116,7 @@ const Skills = () => {
   return (
     <div
       name="skills" id="skills"
-      className="bg-gradient-to-b to-black-800 from-sky-500 w-full pt-2 md:pt-28 text-blue-100 "
+      className="bg-gradient-to-b to-black-800 bg-sky-700 w-full pt-2 md:pt-28 text-blue-100 "
     >
       <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div style={{ textAlign: "center" }} data-aos="fade-right">
@@ -122,7 +138,7 @@ const Skills = () => {
                 alt={title}
                 className={`  mx-auto shadow-lg ${style}`}
               />
-              <p className="mt-4 mb-8">{title}</p>
+              <p className="mt-4 mb-8 bg-blue-100">{title}</p>
             </div>
           ))}
         </div>

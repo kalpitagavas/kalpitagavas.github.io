@@ -15,7 +15,8 @@ const Home = () => {
       <div className="i-left">
         <div className="i-name">
         <span>Hi, I am </span>
-          <span id="user-detail-name" style={{fontSize:60,fontWeight:'bold'}}>Kalpita Gavas</span>
+          <span id="user-detail-name" style={{fontSize:60,fontWeight:'bold'}} class="home-img"
+>Kalpita Gavas</span>
           <h1 className='typewriter'>I'm a {' '}
           <span className='typewriter'
                 style={{
@@ -50,7 +51,7 @@ const Home = () => {
               className="max-w-screen-sm flex justify-start items-center space-x-8"
               data-aos="fade-up"
             >
-              <div  id="contact-github">
+              <div  id="contact-github" >
                 <a href="https://github.com/kalpitagavas" target="_blank" rel="noreferrer">
                   <BsGithub size="38px" color="white" />
                 </a>

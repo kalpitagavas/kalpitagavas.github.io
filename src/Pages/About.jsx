@@ -30,7 +30,7 @@ const About = () => {
 
       <div className="w-9/12 mb-60 mx-auto grid lg:grid-cols-2 pt-4 border-0 border-red items-center ">
         <div className="hidden lg:block lg:mt-1 border-0 border-red ">
-          <img
+          <img  class="home-img"
             className=" w-10/12 rounded-xl "
             src={professionimg}
             alt="logo"
@@ -55,7 +55,7 @@ const About = () => {
               marginTop: "10px",
             }}
           >
-            <p
+            <p id="user-detail-intro"
               className="mt-6 text-xl text-white lg:text-lg md:text-md sm:text-sm"
               data-aos="fade-up"
             >

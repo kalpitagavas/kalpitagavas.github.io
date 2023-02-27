@@ -3,13 +3,13 @@ import React from "react";
 //spotify
 import HomePageU from "../assets/projectimgs/spotify/homePage.png";
 
-//Tvacha
+//Uboric
 import HomePageT from "../assets/projectimgs/Uboric/homePage.png";
 
-//Classic World
+//Todoapp
 import HomePageC from "../assets/projectimgs/todoapp/homePage.png";
 
-//Booking
+//Rentomojo
 import HomePageB from "../assets/projectimgs/rontomojo/homePage.png";
 
 import {
@@ -46,7 +46,7 @@ const Projects = () => {
 
       <div className="w-10/14 dark:text-white grid grid-rows-2 grid-flow-col gap-4 " class="project-card">
       {/* TodoApp project */}
-        <div className="py-5 shadow-md shadow-teal-200 mt-0 md:mt-10">
+        <div class="project-card" className="py-5 shadow-md shadow-blue-400 mt-0 md:mt-10">
           <div data-aos="fade-up">
             <a
               href="https://todoappusingreacthook.netlify.app/"
@@ -57,6 +57,7 @@ const Projects = () => {
                 className="w-11/12 mb-5 hover:scale-110 mx-auto object-contain  duration-700 hover:cursor-pointer "
                 src={HomePageC}
                 alt="Todoapp-homepage"
+                class="project-image"
               />
             </a>
           </div>
@@ -79,12 +80,10 @@ const Projects = () => {
               className="px-5 mt-2 text-white sm:mt-2 sm:text-lg"
               data-aos="fade-right" class="project-description"
             >
-              Classic World is a clone of Myntra which is one of the largest
-              fashion e-commerce stores in India that deals with the fashion and
-              lifestyle products for men, women, and kids
+             Todo App for creating list of items with Add Update as well as Delete functionality and also with good UI
             </p>
           </div>
-          <div class="project-tech-stack"
+          <div class="project-tech-stack" 
             className="flex justify-center items-center gap-x-2 mt-5"
            
           >
@@ -125,7 +124,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     GitHub
                     <BsGithub size={22} />
                   </button>
@@ -137,7 +136,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     View
                     <FaExternalLinkAlt size={18} />
                   </button>
@@ -148,7 +147,7 @@ const Projects = () => {
         </div>
 
         {/*Rentomojo  */}
-        <div className="py-5 shadow-md shadow-red-400 mt-0 md:mt-10  ">
+        <div className="py-5 shadow-md shadow-blue-400 mt-0 md:mt-10  ">
           <div data-aos="fade-up">
             <a
               href="https://effervescent-cucurucho-64f7b0.netlify.app/"
@@ -156,7 +155,7 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img
-                className="w-11/12 mb-5 hover:scale-110 mx-auto object-contain  duration-700 hover:cursor-pointer "
+                className="w-10/12 mb-5 hover:scale-110 mx-auto object-contain  duration-700 hover:cursor-pointer "
                 src={HomePageB}
                 alt="Rentomojo-homepage"
               />
@@ -181,9 +180,7 @@ const Projects = () => {
               className="px-5 mt-2 text-white sm:mt-2 sm:text-lg"
               data-aos="fade-right"class="project-description"
             >
-              Booking.com is a Dutch online travel agency for lodging
-              reservations & other travel products, and a subsidiary of Booking
-              Holding.
+           Rentomojo is India's leading rental platform brings to you a wide range of products on rent
             </p>
           </div>
           <div class="project-tech-stack"
@@ -226,7 +223,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     GitHub
                     <BsGithub size={22} />
                   </button>
@@ -238,7 +235,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                   View
                     <FaExternalLinkAlt size={18} />
                   </button>
@@ -249,7 +246,7 @@ const Projects = () => {
         </div>
 
         {/* Uboric */}
-        <div className="py-5 shadow-md shadow-orange-400 mt-0 md:mt-10  ">
+        <div className="py-5 shadow-md shadow-blue-400 mt-0 md:mt-10  ">
           <div data-aos="fade-up">
             <a
               href="https://musical-parfait-580c0f.netlify.app/index.html#"
@@ -257,7 +254,7 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img
-                className="w-11/12 mb-5 hover:scale-110 mx-auto object-contain  duration-700 hover:cursor-pointer "
+                className="w-10/12 mb-5 hover:scale-110 mx-auto object-contain  duration-700 hover:cursor-pointer "
                 src={HomePageT}
                 alt="uboric-homepage"
               />
@@ -282,8 +279,7 @@ const Projects = () => {
               className="px-5 mt-2 text-white sm:mt-2 sm:text-lg"
               data-aos="fade-right" class="project-description"
             >
-              SkinStore.com is an e-commerce site for premium beauty products
-              across skin, makeup and hair.
+              Online shopping with Uboric is quick, convenient and trouble-free. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep. Uboric offers you the chance to choose top branded products sitting in the comfort of your homes and just clicking on your requirements to get it delivered atyour doorstep.
             </p>
           </div>
           <div class="project-tech-stack"
@@ -319,7 +315,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     GitHub
                     <BsGithub size={22} />
                   </button>
@@ -331,7 +327,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                    View
                     <FaExternalLinkAlt size={18} />
                   </button>
@@ -342,7 +338,7 @@ const Projects = () => {
         </div>
 
         {/* spotify */}
-        <div className="py-5 shadow-md shadow-teal-200 mt-0 md:mt-10  ">
+        <div className="py-5 shadow-md shadow-blue-400 mt-0 md:mt-10  ">
           <div data-aos="fade-up">
             <a
               href="https://fastidious-concha-b07348.netlify.app/"
@@ -375,8 +371,7 @@ const Projects = () => {
               className=" px-5 mt-2 text-white sm:mt-2 sm:text-lg"
               data-aos="fade-right" class="project-description"
             >
-              Unsplash is a website dedicated to proprietary stock photography.
-              It provides high resolution images.
+              Spotify is a digital music service that gives you access to millions of songs.
             </p>
           </div>
           <div class="project-tech-stack"
@@ -419,7 +414,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     GitHub
                     <BsGithub size={22} />
                   </button>
@@ -431,7 +426,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <button className="inline-flex gap-3 px-4 py-2 rounded-md hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                  <button className="inline-flex gap-3 px-4 py-2 rounded-full hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
                     View
                     <FaExternalLinkAlt size={18} />
                   </button>
